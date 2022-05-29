@@ -43,8 +43,7 @@ img{
     display: flex;
 }
 .menu-item:not(:last-child){
-    margin-right: 93px;
-    display: block;
+    margin-right: 50px;
 }
 .link{
     text-decoration: none;
@@ -75,7 +74,10 @@ body{
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: #212121;}
+    color: #212121;
+padding-top: 32px;
+padding-bottom: 32px;
+display: block;}
     .menu-link:hover,
     .menu-link:focus{
         color: #2196F3;
@@ -86,21 +88,26 @@ body{
 font-size: 14px;
 line-height: 16px;
 letter-spacing: 0.02em;
-
+padding-top: 32px;
+padding-bottom: 32px;
 color: #2196F3;
+display: block;
     }
     .menu-link-portfolio{
 font-weight: 500;
 font-size: 14px;
 line-height: 16px;
 letter-spacing: 0.02em;
+padding-top: 32px;
+padding-bottom: 32px;
+display: block;
 
 color: #2196F3;
     }
     .adress{
         display: flex;
         margin-left: auto;
-        margin-right: 50px;
+        margin-right: auto;
     }
 .mail{
         font-weight: 500;
@@ -108,7 +115,6 @@ color: #2196F3;
         line-height: 1.14;
         letter-spacing: 0.02em;
         color: #757575;
-        margin-right: 50px;
     }
         .mail:hover,
         .mail:focus{
@@ -128,15 +134,13 @@ color: #757575;
         .hero{
             background: #2F303A;
             text-align: center;
+            padding-top: 200px;
+            padding-bottom: 200px;
         }
         .hero2{
             padding-top: 94px;
         }
         .hero-container{
-            padding-top: 200px;
-            padding-left: 237px;
-            padding-right: 237px;
-            padding-bottom: 280px;
         }
         .main-tittle{
 font-weight: 900;
@@ -148,7 +152,8 @@ letter-spacing: 0.06em;
 text-transform: uppercase;
 color: #FFFFFF; 
 width: 696px; 
-height: 120px;
+margin: 0 auto;
+margin-left: auto;
 }
 .modal-btn{
     width: 200px;
@@ -196,7 +201,7 @@ line-height: 1.16;
 text-align: center;
 letter-spacing: 0.03em;
 color: #212121;
-padding-bottom: 35px;
+margin-bottom: 50px;
 }
 .our-team-main{
 font-weight: 700;
@@ -205,11 +210,12 @@ line-height: 1.16;
 text-align: center;
 letter-spacing: 0.03em;
 color: #212121;
-padding-bottom: 35px;
+margin-bottom: 50px;
 }
 .our-team{
     background: #F5F4FA;
     padding-bottom: 94px;
+    padding-top: 94px;
 }
 .name{
 font-weight: 500;
@@ -244,6 +250,7 @@ color: #2196F3;
 }
 .address{
     font-style: normal;
+    margin-top: 30px;
 }
 .map-address-link{
     font-weight: 400;
@@ -318,7 +325,6 @@ cursor: pointer;
 /* shadow-middle */
 box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 border-radius: 4px;
-margin-right: 8px;
 }
 .table-about{
     display: flex;
@@ -328,37 +334,89 @@ margin-right: 8px;
     display: flex;
     justify-content: space-between;
 }
-.li-tittle{
-    display: table-cell
-}
 .about{
     padding-top: 94px;
-}
-.our-team-container{
-    padding-top: 94px;
+    padding-bottom: 94px;
 }
 .name-div{
     padding-top: 30px;
     padding-bottom: 30px;
 }
-.adress-footer{
-    padding-bottom: 9px;
+.adress-footer:not(:last-child){
+    margin-bottom: 9px;
 }
 .button-type{
     padding-top: 94px;
+    padding-bottom: 94px;
 }
 .button-type-list{
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.button-type-li{
+.button-type-li:not(:last-child){
     margin-right: 8px;
 }
 .table{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding-top: 50px;
-    padding-bottom: 94px;
+    margin-top: 50px;
+}
+.page-header{
+
+}
+.adress-li:not(:last-child){
+    margin-right: 50px;
+}
+.hero2-list{
+    display: flex;
+}
+.li-tittle{
+    width: 270px;
+}
+.button-type-li-all{
+    margin-right: 8px;
+}
+.button-all{
+    padding-left: 22px;
+    padding-right: 22px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+.button-websities{
+    padding-left: 22px;
+    padding-right: 22px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+.button-applications{
+    padding-left: 22px;
+    padding-right: 22px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+.button-design{
+    padding-left: 22px;
+    padding-right: 22px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+.button-marketing{
+    padding-left: 22px;
+    padding-right: 22px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+.all{
+    margin-bottom: 4px;
+    margin-top: 20px;
+}
+.all-div{
+    margin-bottom: 30px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: rgba(238, 238, 238, 1);
 }
