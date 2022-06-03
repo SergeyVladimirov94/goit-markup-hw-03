@@ -364,7 +364,7 @@ border-radius: 4px;
     margin-top: 50px;
 }
 .page-header{
-    border-bottom: 1px solid #ffffff
+    border-bottom: 1px solid #ECECEC
 }
 .adress-li:not(:last-child){
     margin-right: 50px;
@@ -425,6 +425,6 @@ border-radius: 4px;
     rgba(238, 238, 238, 1);
     border-top: none;
 }
-.all-table{
-    margin-bottom: 30px;
+.all-table:nth-child(-n+6){
+    margin-bottom: 30px; 
 }
